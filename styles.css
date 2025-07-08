@@ -1,0 +1,116 @@
+/* style.css - Styling for Bryon Hoffpauir Resume Website */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #080808;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #11004e;
+  color: #fff;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 5px 0;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  color: #0a9396;
+  border-bottom: 2px solid #0a9396;
+  padding-bottom: 5px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #005f73;
+  color: #fefefe;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  color: #07e0f0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  header, main {
+    padding: 15px;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+#github {
+  text-align: center;
+}
+
+#github img {
+  margin-top: 10px;
+  border: 2px solid #f7f7f8;
+  padding: 10px;
+  border-radius: 8px;
+  background: #fff;
+}
+/* Dark Mode Styling */
+body.dark-mode {
+  background-color: #121212;
+  color: #4c2dbc;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: #1e1e1e;
+  color: #fcf8f8;
+}
+
+body.dark-mode a {
+  color: #4f3da1;
+}
+button {
+  background-color: #594bb1;
+  color: rgb(246, 246, 246);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6058d1;
+}
